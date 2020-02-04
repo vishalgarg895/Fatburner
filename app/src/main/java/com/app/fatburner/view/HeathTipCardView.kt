@@ -18,7 +18,9 @@ import com.mindorks.placeholderview.annotations.Layout
 import com.mindorks.placeholderview.annotations.View
 
 @Layout(R.layout.health_tip_cardview)
-class HeathTipCardView(private val mContext: Context, private val healthTipModel: HealthTip, private val mSwipeView: SwipePlaceHolderView) {
+class HeathTipCardView(private val mContext: Context,
+                       private val healthTipModel: HealthTip,
+                       private val mSwipeView: SwipePlaceHolderView) {
 
     @View(R.id.healthTipPicture)
     private val profileImageView: ImageView? = null
